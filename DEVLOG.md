@@ -25,8 +25,7 @@ the entire concept to a wheeled robot inspired by Wall-E.
 
 ### Wheel layout
 
-Wheel Layout Image
----
+![View Wheel Layout Photo (Rear Drive Wheels, Caster Wheel, and Sensor)](IMG_1363.jpeg)
 
 ## Entry 2 — First build & wiring
 **Date:** 6/3/2026
@@ -42,14 +41,14 @@ and just large enough to house all components internally.
 
 ### Top-down view of internals
 
-TopDown Image of Internals
+![View Top-Down Photo of Chassis Internals](IMG_1366.jpeg)
 
 ### Wiring setup
 Connected both MG90S servos to the Arduino via a breadboard. 
 Left servo on pin 5, right servo on pin 6. HC-SR04 trig pin on 
 9, echo pin on 10.
 
-BreadBoardWiring
+![View Breadboard and Servo Wiring Photo](IMG_1367.jpeg)
 
 ### Key wiring notes
 - Servos are mirrored on the chassis, so forward motion requires 
@@ -57,10 +56,9 @@ BreadBoardWiring
 - Servo value of 90 = stop (neutral for continuous rotation)
 - Values above 90 spin one direction, below 90 the other
 
----
 
 ## Entry 3 — First test (movement + obstacle detection)
-**Date:** [Date]
+**Date:** 6/5/2026
 
 ### What was tested
 First functional test with just the core components:
@@ -79,12 +77,13 @@ or audio logic yet — purely validating movement and detection.
 ✅ Serial monitor confirmed accurate distance readings  
 
 ### First test video
-[INSERT VIDEO 1 HERE — slow forward movement, stops at wall]
+
+https://github.com/user-attachments/assets/48666808-96c2-47da-aac3-c13453136b9f
 
 ---
 
 ## Entry 4 — Final prototype (full feature integration)
-**Date:** [Date]
+**Date:** 6/6/2026
 
 ### What was added
 Integrated the passive buzzer on pin 3 and wrote full behavior 
@@ -128,8 +127,9 @@ robot from freezing if no echo is received (open space edge case).
 | `alertTune()` | 3-beep alert before executing a turn |
 
 ### Final prototype video
-[INSERT VIDEO 2 HERE — full prototype run with buzzer sounds, 
-obstacle detection, 3-second stuck timer, alert tune, and turn]
+
+### Final prototype video
+[▶️ View Final Prototype Video: Full Run with Buzzer Sounds & Autonomous Navigation](https://github.com/user-attachments/assets/3baf1eca-0ff7-4d83-a28c-641112e59e20)
 
 ---
 
