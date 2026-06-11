@@ -2,16 +2,6 @@
 
 An autonomous wheeled robot inspired by Wall-E, built as a first prototype using an Arduino Uno and recycled materials. Navigates independently, avoids obstacles, and responds to situations with audio feedback.
 
-## Demo
-
-**Wheel test + object detection**  
-[Insert Google Drive / YouTube link]
-
-**Full prototype run**  
-[Insert Google Drive / YouTube link]
-
----
-
 ## Hardware
 
 Components --
@@ -28,12 +18,6 @@ Chassis: Apple box + caster wheel (prototype)
 - Autonomous obstacle detection and avoidance
 - Situational audio feedback via passive buzzer
 - Calibrated servo movement for straight driving and turning
-
----
-
-## Wiring
-
-*(See `/diagrams/wiring_sketch.jpg`)*
 
 ---
 
