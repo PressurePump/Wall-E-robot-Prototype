@@ -149,15 +149,8 @@ robot from freezing if no echo is received (open space edge case).
 
 ## What's next — Wall-E v2
 
-- [ ] 3D-printed compact chassis
 - [ ] LCD display for Wall-E face expressions
 - [ ] PIR sensor for motion-triggered reactions
 - [ ] Smarter navigation (left/right decision instead of always 
       turning right)
 - [ ] YouTube series documenting the full v2 build
-
----
-
-*This prototype was built as a portfolio and learning project 
-during freshman year at George Mason University — Electrical 
-Engineering.*
